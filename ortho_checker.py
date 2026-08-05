@@ -1,11 +1,21 @@
-"""An orthogonal set is a set of vectors in Rn where the product of each pair of vectors results in zero. 
-
-
-Plan
-* Collect the set (a list of lists) through an input function. 
-* For each vector, compare with every other vector by multiplying each entry in the vector by the other, then adding up the result.
-* An if/else block to check if all results are zero.
 """
+A project by Haleemat Oloyo
+Completed on 8/5/2026
+
+~ Definition of orthogonal set of vectors:
+A set of nonzero vectors {u1, u2, ..., um} is called orthogonal if ui • uj = 0 whenever i!=j. 
+Essentially, this means that the dot product of any two vectors in the set is zero.
+
+~ Workplan
+* Collect each vector (space-delimited numbers) through an input function. 
+* Create a set of vectors using the inputs.
+* Using the combination function, create pairs of vectors.
+* Check the dot product of each pair of vectors.
+* Create a list to store the dot products if they are not zero.
+* Use an if/else block to check the list has any values
+* If the list is empty, the set is orthogonal; otherwise, it is not.
+"""
+
 def check_set(v_set):
     from itertools import combinations
 
@@ -27,7 +37,7 @@ def check_set(v_set):
 
             for p in range(len(pair[0])):
                 sum += pair[0][p] * pair[1][p]
-                
+
             if sum != 0:
                 sums.append(sum)
 
