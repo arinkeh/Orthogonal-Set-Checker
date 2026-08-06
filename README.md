@@ -13,8 +13,8 @@ The ortho_set_checker serves as a screening machine that saves you the time of m
 So how it works is this:
 - It asks you for an input; please, enter numbers only, because last time I checked, words don’t form vectors.
 - You enter each vector separately, with each number/entry separated by a space. so if your vector is [1, 2, 1], you would enter 1 2 1.
-- when you have entered all vectors as prompted, you may enter your one and only word, "done"—banal, I know.
-- I perform my magic in the backroom, sweating to run the code in time, and after 5 seconds, you would get the verdict: orthogonal, or not; yes, it takes me 5 seconds to vet orthogonal sets, I have been doing this for 600 years, centuries before Joseph Fourier proponded the concept.
+- When you have entered all vectors as prompted, you may enter your one and only word, "done"—banal, I know.
+- I perform my magic in the backroom, sweating to run the code in time, and after 5 seconds, you would get the verdict: orthogonal, or not; yes, it takes me 5 seconds to vet orthogonal sets. I have been doing this for 600 years, centuries before Joseph Fourier proponded the concept.
 
 ## TL;DR
 ~ Well, that hurt my feelings. Why didn't you read it? There is literally a literacy crisis going on right now! Anyway, I am a kind person, so the gist is that the code checks whether your set of vectors is orthogonal. Just enter each vector, space-delimited, and enter "done" to conclude. Your verdict is 5 seconds away. 
